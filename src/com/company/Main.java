@@ -38,5 +38,13 @@ public class Main {
             System.out.println("Your new final score was " + finalScore);
         }
 
+        score = 10000;
+        levelCompleted = 8;
+        bonus = 200;
+        if (gameOver){
+            int finalScore = score + (levelCompleted * bonus);
+            System.out.println("Your score was " + finalScore);
+        }
+
     }
 }
